@@ -263,7 +263,32 @@ img.sm-icon {
 .content {
     padding: 10px 50px 50px 50px;
 }
-/*
-.rotate{
-    transform: rotate(90deg);
-}*/
+
+.two-seps{
+    width: 100%;
+    float: left;
+}
+
+.about-column{
+    width: 50%;
+    float: left;
+}
+@media (max-width: 559px){
+    .about-column{
+        width: 100%;
+    }
+}
+.selfie img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.about-column .text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.two-seps {
+    margin-bottom: 3.5rem;
+}
+footer{
+    text-align: center;
+}
